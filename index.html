@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SDRC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    .navbar .left {
+        float: left;
+    }
+    .navbar .right {
+        float: right;
+    }
+    .navbar .button:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .hero-section .hero-svg {
+        width: 100%;
+        height: 70vh;
+    }
+</style>
+<body>
+    <header class="navbar">
+        <a class="left">Sun Devil Robotics Club</a>
+        <div class="right">
+            <a href="#" class="button">Home</a>
+            <a href="#" class="button">URC</a>
+            <a href="#" class="button">Racing Rovers</a>
+            <a href="#" class="button">Contact Us</a>
+        <div>
+    </header>
+    <section class="hero-section">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="hero-svg">
+            <clipPath id="clipPolygon">
+                <polygon points="100,0 0,100 100,100">
+                </polygon>
+            </clipPath>
+                <a href="#" class="hero-button" id="hero-button-top">
+                    <image class="hero-image" viewBox='0 0 100 100' width="100%" height="100%" preserveAspectRatio='none' xlink:href="https://i.imgur.com/JFI7cN6.png"/>
+                </a>
+                <a href="#" class="hero-button" id="hero-button-bottom">
+                    <image class="hero-image" viewBox='0 0 100 100' width="100%" height="100%" preserveAspectRatio='none' clip-path="url(#clipPolygon)" xlink:href="https://i.imgur.com/Bop90A3.png"/>
+                </a>
+            <line class="hero-line" x1="100" y1="0" x2="0" y2="100" stroke="black" stroke-width="5" vector-effect="non-scaling-stroke"/>
+        </svg>
+    </section>
+</body>
+</html>
