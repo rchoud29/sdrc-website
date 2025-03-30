@@ -8,11 +8,12 @@
 <style>
     body {
         font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
     }
-    .navbar {
+    header {
         overflow: hidden;
         background-color: #333;
+        position: sticky;
+        top: 0;
     }
     .navbar a {
         float: left;
@@ -32,6 +33,14 @@
         background-color: #ddd;
         color: black;
     }
+
+    footer {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        bottom: 0;
+    }
+
 
     section p {
         margin-left: 3rem;
@@ -76,6 +85,11 @@
             <a href="#" class="button">Contact Us</a>
         <div>
     </header>
+    <footer class="footer">
+        <div class="copywrite">
+            <p>© 2024 Sun Devil Motorsports</p>
+        </div>
+    </footer>
     <section class="hero-section">
         <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="hero-svg">
             <clipPath id="clipPolygon">
@@ -102,7 +116,7 @@
             </div>
             <div class="about-us-mission">
                 <hr style="margin-left:3rem;margin-right:3rem;"></hr>
-                <p>Our mission is to help lead the world into the next generation of space exploration and foster a new generation of engineers.</p>
+                <p>Our mission is to provide our members with hands- on experience in robotics, cultivate problem solving skills, participating in competitions, and inspire them to pursure careers in STEM fields.</p>
             </div>
         </div>
         <div class="about-us-right">
