@@ -9,9 +9,6 @@
     body {
         font-family: Arial, Helvetica, sans-serif;
         margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
     }
     header {
         overflow: hidden;
@@ -41,45 +38,22 @@
     footer {
         background-color: #333;
         bottom: 0;
-        order: 99;
     }
-    footer p {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        font-size: .5rem;
+    .footer {
+        
     }
+
     section {
-        background-color: #834;
         margin: 0;
-        padding: 1rem;
     }
     section p {
         margin-left: 3rem;
         margin-right: 3rem;
     }
 
-    .hero-section {
-        display: grid;
-        place-items: center;
-    }
-
-    .hero-section img {
+    .hero-section .hero-svg {
         width: 100%;
         height: 70vh;
-        transition: transform 0.5s ease;
-        transform-origin: center;
-    }
-    .hero-section img:nth-of-type(1) {
-        polygon(0% 0%, 0% 100%, 100% 0%);
-        clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
-    }
-    .hero-section img:nth-of-type(2) {
-        polygon(100% 0, 0% 100%, 100% 100%);
-        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-        margin-top: -70.1vh;
-    }
-    .hero-section img:hover {
-        transform: scale(1.02);
     }
 
     .about-us .about-us-left {
@@ -115,13 +89,8 @@
             <a href="#" class="button">Contact Us</a>
         <div>
     </header>
-    <footer class="footer">
-        <div class="copywrite">
-            <p>© 2025 Sun Devil Robotics Club</p>
-        </div>
-    </footer>
     <section class="hero-section">
-<!--        <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="hero-svg">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="hero-svg">
             <clipPath id="clipPolygon">
                 <polygon points="100,0 0,100 100,100">
                 </polygon>
@@ -133,9 +102,7 @@
                     <image class="hero-image" viewBox='0 0 100 100' width="100%" height="100%" preserveAspectRatio='none' clip-path="url(#clipPolygon)" xlink:href="https://i.imgur.com/Bop90A3.png"/>
                 </a>
             <line class="hero-line" x1="100" y1="0" x2="0" y2="100" stroke="black" stroke-width="5" vector-effect="non-scaling-stroke"/>
-        </svg>-->
-        <img src="https://i.imgur.com/JFI7cN6.png"/>
-        <img src="https://i.imgur.com/Bop90A3.png"/>
+        </svg>
     </section>
     <section class="about-us">
         <div class="about-us-left">
@@ -155,6 +122,11 @@
             <img class="about-us-media" src="https://i.imgur.com/zTJktLK.png"/>
         </div>
     </section>
+    <footer class="footer">
+        <div class="copywrite">
+            <p>© 2025 Sun Devil Robotics Club</p>
+        </div>
+    </footer>
 
 </body>
 </html>
