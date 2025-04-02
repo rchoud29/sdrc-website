@@ -12,10 +12,10 @@
     <header class="navbar">
         <a class="left">Sun Devil Robotics Club</a>
         <div class="right">
-            <a href="#" class="button">Home</a>
-            <a href="#" class="button">URC</a>
-            <a href="#" class="button">Racing Rovers</a>
-            <a href="#" class="button">Contact Us</a>
+            <a href="../../index.html" class="button">Home</a>
+            <a href="urc.html" class="button">URC</a>
+            <a href="rr.html" class="button">Racing Rovers</a>
+            <a href="contact.html" class="button">Contact Us</a>
         <div>
     </header>
     <footer class="footer">
