@@ -55,7 +55,6 @@
 }
 .about-left {
     flex: 1 1 0;
-    font-size: 1rem;
     min-width: 60%
     text-align: justify;
 }

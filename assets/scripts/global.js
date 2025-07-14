@@ -22,7 +22,14 @@ function loadNavbar() {
         });
 }
 function nav(addr) {
-    window.location.href = window.location.origin + addr;
+    let newAddr = window.location.origin;
+    if (addr == "index") {
+        newAddr += "/index.html";
+    } else {
+        newAddr += `/assets/html/${addr}.html`;
+    }
+
+    window.location.href = newAddr;
 }
 
 
