@@ -1,58 +1,90 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+.hero {
     margin: 0;
-    padding: 0;
+}
+.hero .img-wrapper {
+    display: grid;
+}
+.hero img {
+    grid-area: 1 / 1;
+    width: 100%;
+    object-fit: conver;
+    transition: transform 0.25s ease-in-out,
+    filter 0.25s ease-in-out;
+    transform-origin: center;
+}
+.hero img:nth-of-type(1) {
+    clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+}
+.hero img:nth-of-type(2) {
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+.hero .img-wrapper:hover img{
+    filter: brightness(85%);
+}
+.hero img:nth-of-type(1):hover {
+    transform: scale(1.02);
+    filter: brightness(100%);
+}
+.hero img:nth-of-type(2):hover {
+    transform: scale(1.02);
+    filter: brightness(100%);
+}
+
+.hero-left,
+.hero-right {
+    flex: 1 1 0;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+.hero-left {
+    background-image: url("https://i.imgur.com/JFI7cN6.png");
+    clip-path: polygon(0 0, 95% 0, 85% 100%, 0% 100%);
+}
+.hero-right {
+    background-image: url("https://i.imgur.com/Bop90A3.png");
+}
+
+.about-flex-container {
     display: flex;
-    flex-direction: column;
-    color: white;
+    flex-direction: row;
+    align-items: stretch;
+    padding-left: 3rem;
+    gap: 2rem;
 }
-body p {
-    color: white;
+.about-left {
+    flex: 1 1 0;
+    font-size: 1rem;
+    min-width: 60%
+    text-align: justify;
 }
-header {
-    overflow: hidden;
-    background-color: #333;
-    position: sticky;
-    top: 0;
-    order: 0;
-    z-index: 1;
-}
-.navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-}
-.navbar .left {
-    float: left;
-}
-.navbar .right {
-    float: right;
-}
-.navbar .button:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-footer {
-    background-color: #333;
-    bottom: 0;
-    order: 99;
-}
-footer p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: .5rem;
-}
-section {
-    background-color: #834;
+.about-left hr {
     margin: 0;
-    padding: 1rem;
 }
-section p {
-    margin-left: 3rem;
-    margin-right: 3rem;
+.about-left-header {
+    font-weight: bold;
+    font-size: .75rem;
 }
-
+.about-left-header hr {
+    margin-left: -.1rem;
+    margin-top: 0;
+    width: 4.2rem;
+}
+.about-left-mission {
+    font-size: .8rem;
+}
+.about-right {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.about-right img {
+    height: 0;
+    min-height: 100%;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    max-width: 100%;
+}

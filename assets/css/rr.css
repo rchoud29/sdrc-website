@@ -1,0 +1,26 @@
+.about-us .about-us-left {
+    width: 70%;
+    float: left;
+}
+.about-us .about-us-left .about-us-header {
+    font-weight: bold;
+    font-size: .75em;
+}
+.about-us .about-us-left .about-us-body {
+    font-size: .8em;
+}
+.about-us .about-us-left .button-container {
+    display: flex;
+    justify-content: center;
+}
+.about-us .about-us-right {
+    width: 30%;
+    float: right;
+}
+.about-us .about-us-media {
+    height: 25vh;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+}

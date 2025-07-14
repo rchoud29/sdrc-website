@@ -2,117 +2,37 @@
 <html lang="en">
 <head>
     <title>SDRC</title>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
-<style>
-    .hero-section .img-wrapper{
-        display: grid;
-        place-items: center;
-    }
-
-    .hero-section img {
-        width: 100%;
-        height: 70vh;
-        transition: transform 0.25s ease-in-out,
-                    filter 0.25s ease-in-out;
-        transform-origin: center;
-    }
-    .hero-section img:nth-of-type(1) {
-        polygon(0% 0%, 0% 100%, 100% 0%);
-        clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
-    }
-    .hero-section img:nth-of-type(2) {
-        polygon(100% 0, 0% 100%, 100% 100%);
-        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-        margin-top: -70.1vh;
-    }
-    .hero-section .img-wrapper:hover img{
-        filter: brightness(85%);
-    }
-    .hero-section img:nth-of-type(1):hover {
-        transform: scale(1.02);
-        filter: brightness(100%);
-    }
-    .hero-section img:nth-of-type(2):hover {
-        transform: scale(1.02);
-        filter: brightness(100%);
-    }
-
-    .about-us .about-us-left {
-        width: 70%;
-        float: left;
-    }
-    .about-us .about-us-header {
-        font-weight: bold;
-        font-size: .75em;
-    }
-    .about-us .about-us-mission {
-        font-size: .8em;
-    }
-    .about-us .about-us-right {
-        width: 30%;
-        float: right;
-    }
-    .about-us .about-us-media {
-        height: 25vh;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 1em;
-    }
-</style>
 <body>
-    <header class="navbar">
-        <a class="left">Sun Devil Robotics Club</a>
-        <div class="right">
-            <a href="index.html" class="button">Home</a>
-            <a href="assets/html/urc.html" class="button">URC</a>
-            <a href="assets/html/rr.html" class="button">Racing Rovers</a>
-            <a href="assets/html/contact.html" class="button">Contact Us</a>
-        <div>
-    </header>
-    <footer class="footer">
-        <div class="copywrite">
-            <p>© 2025 Sun Devil Robotics Club</p>
-        </div>
-    </footer>
-    <section class="hero-section">
-        <div class="img-wrapper">
-            <img onclick='nav("rr")'  src="https://i.imgur.com/JFI7cN6.png"></img>
-            <img onclick='nav("urc")' src="https://i.imgur.com/Bop90A3.png"/>
-        </div>
-    </section>
-    <section class="about-us">
-        <div class="about-us-left">
-            <div class="about-us-header">
-                <p>About Us</p>
-                <hr style="background-color:#000000; color: #000000; border-color:transparent; margin-top: -.5rem; margin-left:3rem;width:4.2em"></hr>
+    <script src="assets/scripts/global.js"></script>
+
+    <main id="main-flex" class="main-flex-container">
+        <section class="flex-section hero">
+            <div class="img-wrapper">
+                <img id="index-hero-left" onclick='nav("rr")'  src="https://i.imgur.com/JFI7cN6.png"></img>
+                <img id="index-hero-right" onclick='nav("urc")' src="https://i.imgur.com/Bop90A3.png"/>
             </div>
-            <div class="about-us-summary">
-                <p>Sun Devil Robotics Club hosts a national level robotics team competing in the Mar's Rover Society's University Rover Challange and leads the way for the next generation of engineers in a beginner friendly internal rover competition.</p>
+        </section>
+        <section class="flex-section about-flex-container">
+            <div class="about-left">
+                <div class="about-left-header">
+                    <a>About Us</a>
+                    <hr></hr>
+                </div>
+                <div class="about-left-desc">
+                    <p>Sun Devil Robotics Club hosts a national level robotics team competing in the Mar's Rover Society's University Rover Challange and leads the way for the next generation of engineers in a beginner friendly internal rover competition.</p>
+                </div>
+                <hr></hr>
+                <div class="about-left-mission">
+                    <p>Our mission is to provide our members with hands- on experience in robotics, cultivate problem solving skills, participating in competitions, and inspire them to pursure careers in STEM fields.</p>
+                </div>
             </div>
-            <div class="about-us-mission">
-                <hr style="margin-left:3rem;margin-right:3rem;"></hr>
-                <p>Our mission is to provide our members with hands- on experience in robotics, cultivate problem solving skills, participating in competitions, and inspire them to pursure careers in STEM fields.</p>
+            <div class="about-right">
+                <img class="about-us-media" src="https://i.imgur.com/zTJktLK.png"/>
             </div>
-        </div>
-        <div class="about-us-right">
-            <img class="about-us-media" src="https://i.imgur.com/zTJktLK.png"/>
-        </div>
-    </section>
+        </section>
+    </main>
 </body>
-<script>
-    function nav(l) {
-        switch (l) {
-            case ("rr"):
-                location.href = "./assets/html/rr.html";
-                break;
-            case ("urc"):
-                location.href = "./assets/html/urc.html";
-                break;
-        }
-    }
-</script>
-</html>
