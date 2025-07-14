@@ -55,7 +55,7 @@
 }
 .about-left {
     flex: 1 1 0;
-    min-width: 60%
+    min-width: 60%;
     text-align: justify;
 }
 .about-left hr {
@@ -86,4 +86,54 @@
     object-fit: contain;
     display: block;
     max-width: 100%;
+}
+
+.urc-flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-left: 3rem;
+    gap: 2rem
+}
+.urc-left {
+    flex: 1 1 0;
+    max-width: 40%;
+    text-align: justify;
+}
+.urc-left {
+    font-size: 1.1rem;
+}
+.urc-left-stage-title {
+    font-size: 1.2rem;
+}
+.urc-left-stage-title-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.urc-left-count-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.urc-left-count-count {
+    text-align: center;
+    font-size: 1.3rem;
+}
+.urc-left-count-count-unit {
+    font-size: .7rem;
+}
+.urc-right {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.urc-right img {
+    height: 0;
+    min-height: 100%;
+    width: auto;
+    object-fit: stretch;
+    display: block;
+    max-width: 100%;
+    min-width: 80%;
 }
