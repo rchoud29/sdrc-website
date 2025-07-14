@@ -55,7 +55,7 @@
 }
 .about-left {
     flex: 1 1 0;
-    min-width: 60%;
+    width: 60%;
     text-align: justify;
 }
 .about-left hr {
@@ -78,6 +78,8 @@
     display: flex;
     justify-content: center;
     align-items: stretch;
+    margin-right: 3rem;
+    max-width: 40%;
 }
 .about-right img {
     height: 0;
@@ -86,6 +88,7 @@
     object-fit: contain;
     display: block;
     max-width: 100%;
+    margin: auto;
 }
 
 .urc-flex-container {
@@ -127,6 +130,8 @@
     display: flex;
     justify-content: center;
     align-items: stretch;
+    margin-right: 3rem;
+    width: 60%;
 }
 .urc-right img {
     height: 0;
