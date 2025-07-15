@@ -817,3 +817,871 @@ BrokenPipeError: [Errno 32] Broken pipe
 127.0.0.1 - - [14/Jul/2025 10:26:54] "GET /assets/html/navbar.html HTTP/1.1" 200 -
 127.0.0.1 - - [14/Jul/2025 10:26:54] code 404, message File not found
 127.0.0.1 - - [14/Jul/2025 10:26:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:17:20] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:17:20] "GET /assets/css/global.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:17:20] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:17:20] "GET /assets/scripts/global.js HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:17:20] "GET /assets/css/navbar.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:17:20] "GET /assets/html/navbar.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:21:45] "GET /assets/html/rr.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:21:45] "GET /assets/css/rr.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:22:40] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:07] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:23:13] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:23:16] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:23:28] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:23:35] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:35] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:35] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:35] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:35] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:35] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:35] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:35] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:36] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:23:36] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:23:41] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:41] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:41] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:41] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:41] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:41] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:41] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:41] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:41] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:23:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:23:49] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:49] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:49] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:49] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:49] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:49] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:49] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:49] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:23:49] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:23:49] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:24:23] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:24:23] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:24:23] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:24:23] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:24:23] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:24:23] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:24:23] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:24:23] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:24:23] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:24:23] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:25:17] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:25:17] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:25:17] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:25:17] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:25:17] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:25:17] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:25:17] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:25:17] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:25:17] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:25:17] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:26:27] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:27] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:27] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:27] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:27] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:27] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:27] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:27] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:27] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:26:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:26:51] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:51] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:51] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:51] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:51] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:51] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:51] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:51] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:26:51] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:26:51] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:27:04] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:04] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:04] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:04] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:04] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:04] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:04] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:04] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:04] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:27:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:27:45] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:45] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:45] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:45] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:45] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:45] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:45] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:45] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:45] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:27:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:27:53] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:53] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:53] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:53] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:53] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:53] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:53] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:53] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:27:53] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:27:53] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:28:18] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:19] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:19] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:19] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:19] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:19] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:19] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:19] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:19] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:28:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:28:28] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:28] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:28] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:28] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:28] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:28] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:28] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:28] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:28:29] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:28:29] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:32:36] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:32:36] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:32:36] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:32:36] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 57802)
+127.0.0.1 - - [14/Jul/2025 20:32:36] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:32:36] "GET /favicon.ico HTTP/1.1" 404 -
+Traceback (most recent call last):
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 57804)
+  File "/usr/lib/python3.11/socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/http/server.py", line 1306, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.11/http/server.py", line 667, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.11/http/server.py", line 726, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+FileNotFoundError: [Errno 2] No such file or directory: '/home/reeyan/documents/sdrc-website/favicon.ico'
+  File "/usr/lib/python3.11/http/server.py", line 432, in handle
+    self.handle_one_request()
+
+During handling of the above exception, another exception occurred:
+
+  File "/usr/lib/python3.11/http/server.py", line 420, in handle_one_request
+    method()
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/http/server.py", line 674, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.11/socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.11/http/server.py", line 873, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.11/http/server.py", line 1306, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.11/shutil.py", line 200, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.11/http/server.py", line 667, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+BrokenPipeError: [Errno 32] Broken pipe
+  File "/usr/lib/python3.11/http/server.py", line 432, in handle
+    self.handle_one_request()
+----------------------------------------
+  File "/usr/lib/python3.11/http/server.py", line 420, in handle_one_request
+    method()
+  File "/usr/lib/python3.11/http/server.py", line 671, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/server.py", line 728, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.11/http/server.py", line 487, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/Jul/2025 20:32:37] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:37] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:38] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:38] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:38] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:38] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:38] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:38] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:39] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:39] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:39] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:40] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:40] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:41] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:42] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:42] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:43] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:43] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:32:44] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:37:53] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:37:53] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:02] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:38:02] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:38:04] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:38:04] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:38:12] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:12] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:12] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:12] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:12] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:12] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:12] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:12] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:12] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:38:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:38:15] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:16] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:16] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:16] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:16] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:16] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:16] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:16] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:16] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:38:16] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 20:38:48] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:38:48] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:48] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:38:48] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:48] "GET /assets/css/index.css HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 47478)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.11/http/server.py", line 1306, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.11/http/server.py", line 667, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/usr/lib/python3.11/http/server.py", line 432, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.11/http/server.py", line 420, in handle_one_request
+    method()
+  File "/usr/lib/python3.11/http/server.py", line 674, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.11/http/server.py", line 873, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.11/shutil.py", line 200, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/Jul/2025 20:38:55] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:38:55] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:55] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:38:55] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:55] "GET /assets/css/global.css HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 32928)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.11/http/server.py", line 1306, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.11/http/server.py", line 667, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/usr/lib/python3.11/http/server.py", line 432, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.11/http/server.py", line 420, in handle_one_request
+    method()
+  File "/usr/lib/python3.11/http/server.py", line 674, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.11/http/server.py", line 873, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.11/shutil.py", line 200, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/Jul/2025 20:38:59] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:38:59] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:38:59] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:39:49] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:39:49] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:39:49] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:39:49] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:39:49] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:39:54] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:39:54] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:39:54] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:40:14] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:40:14] "GET /assets/css/global.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:40:14] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:40:14] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:40:14] "GET /assets/css/index.css HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 36670)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.11/http/server.py", line 1306, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.11/http/server.py", line 667, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/usr/lib/python3.11/http/server.py", line 432, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.11/http/server.py", line 420, in handle_one_request
+    method()
+  File "/usr/lib/python3.11/http/server.py", line 674, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.11/http/server.py", line 873, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.11/shutil.py", line 200, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/Jul/2025 20:40:28] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:40:28] "GET /assets/css/global.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:40:28] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:40:28] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:40:28] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:40:46] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:40:46] "GET /assets/css/global.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:40:46] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:40:46] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:40:46] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:41:02] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:41:02] "GET /assets/css/global.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:41:02] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:41:02] "GET /assets/css/global.css HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 44236)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.11/http/server.py", line 1306, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.11/http/server.py", line 667, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/usr/lib/python3.11/http/server.py", line 432, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.11/http/server.py", line 420, in handle_one_request
+    method()
+  File "/usr/lib/python3.11/http/server.py", line 674, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.11/http/server.py", line 873, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.11/shutil.py", line 200, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/Jul/2025 20:41:02] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:41:08] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:41:08] "GET /assets/css/global.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:41:08] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:41:08] "GET /assets/css/global.css HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 54610)
+127.0.0.1 - - [14/Jul/2025 20:41:08] "GET /assets/css/index.css HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.11/http/server.py", line 1306, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.11/http/server.py", line 667, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/usr/lib/python3.11/http/server.py", line 432, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.11/http/server.py", line 420, in handle_one_request
+    method()
+  File "/usr/lib/python3.11/http/server.py", line 674, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.11/http/server.py", line 873, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.11/shutil.py", line 200, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/Jul/2025 20:41:59] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:41:59] "GET /assets/css/global.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:41:59] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:41:59] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:42:20] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:42:20] "GET /assets/css/global.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:42:20] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:42:20] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:42:20] "GET /assets/css/global.css HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 44292)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.11/http/server.py", line 1306, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.11/http/server.py", line 667, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/usr/lib/python3.11/http/server.py", line 432, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.11/http/server.py", line 420, in handle_one_request
+    method()
+  File "/usr/lib/python3.11/http/server.py", line 674, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.11/http/server.py", line 873, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.11/shutil.py", line 200, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/Jul/2025 20:42:35] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:42:36] "GET /assets/css/global.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:42:36] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:42:36] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:42:36] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:42:41] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:42:41] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:42:41] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:42:48] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:42:48] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:42:48] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:43:09] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:43:09] "GET /assets/css/global.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:43:09] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:43:09] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:43:19] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:43:19] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:43:19] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:43:24] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:43:25] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:43:25] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:43:28] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:43:28] "GET /assets/css/global.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:43:28] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:43:28] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:59:01] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:59:01] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:59:01] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:59:01] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:59:01] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:59:01] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 54878)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/http/server.py", line 726, in send_head
+    f = open(path, 'rb')
+        ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/reeyan/documents/sdrc-website/favicon.ico'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.11/http/server.py", line 1306, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.11/http/server.py", line 667, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/usr/lib/python3.11/http/server.py", line 432, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.11/http/server.py", line 420, in handle_one_request
+    method()
+  File "/usr/lib/python3.11/http/server.py", line 671, in do_GET
+    f = self.send_head()
+        ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/server.py", line 728, in send_head
+    self.send_error(HTTPStatus.NOT_FOUND, "File not found")
+  File "/usr/lib/python3.11/http/server.py", line 487, in send_error
+    self.wfile.write(body)
+  File "/usr/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/Jul/2025 20:59:45] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:59:49] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 20:59:55] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:59:55] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:59:55] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:59:55] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:59:55] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:59:55] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:59:55] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:59:55] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 20:59:55] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 20:59:55] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 21:10:29] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:29] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:29] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:29] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:29] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:29] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:29] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:29] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:30] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 21:10:30] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 21:10:37] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:38] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:38] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:38] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:38] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:38] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:38] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:38] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:10:38] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 21:10:38] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 21:12:05] "GET /assets/html/rr.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:05] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:05] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:05] "GET /assets/css/rr.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:05] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:05] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:05] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 21:12:05] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 21:12:08] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:09] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:09] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:09] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:09] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:09] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:09] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:09] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 21:12:09] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 21:12:09] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 22:03:27] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 22:03:27] "GET /assets/css/global.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 22:03:27] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 22:03:27] "GET /assets/css/global.css HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 42796)
+127.0.0.1 - - [14/Jul/2025 22:03:27] "GET /assets/css/index.css HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.11/http/server.py", line 1306, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.11/http/server.py", line 667, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/usr/lib/python3.11/http/server.py", line 432, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.11/http/server.py", line 420, in handle_one_request
+    method()
+  File "/usr/lib/python3.11/http/server.py", line 674, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.11/http/server.py", line 873, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.11/shutil.py", line 200, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 42812)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.11/http/server.py", line 1306, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.11/http/server.py", line 667, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/usr/lib/python3.11/http/server.py", line 432, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.11/http/server.py", line 420, in handle_one_request
+    method()
+  File "/usr/lib/python3.11/http/server.py", line 674, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.11/http/server.py", line 873, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.11/shutil.py", line 200, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/Jul/2025 23:15:22] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:15:22] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:15:22] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:15:22] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:15:22] "GET /assets/scripts/global.js HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 23:15:22] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53824)
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/socketserver.py", line 691, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.11/http/server.py", line 1306, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib/python3.11/http/server.py", line 667, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/usr/lib/python3.11/http/server.py", line 432, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.11/http/server.py", line 420, in handle_one_request
+    method()
+  File "/usr/lib/python3.11/http/server.py", line 674, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib/python3.11/http/server.py", line 873, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib/python3.11/shutil.py", line 200, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/Jul/2025 23:15:22] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:16:25] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:16:25] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:16:25] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:19:06] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:19:07] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:19:07] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 23:24:58] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:24:58] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 23:24:58] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:26:22] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 23:26:22] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 23:26:24] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 23:26:36] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:26:37] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:26:37] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:26:37] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:26:37] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:26:37] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:26:37] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:26:37] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:26:37] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:26:37] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:27:02] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 23:27:02] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:27:02] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:28:27] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:28:27] "GET /assets/css/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Jul/2025 23:28:27] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:05] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:05] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:05] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:05] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:05] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:05] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:05] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:05] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:05] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:30:05] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:30:30] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:30] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:30] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:30] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:30] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:30] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:30] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:30] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:30:30] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:30:30] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:31:07] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:07] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:07] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:07] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:07] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:07] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:07] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:07] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:07] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:31:07] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:31:49] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:49] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:49] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:49] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:49] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:49] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:49] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:49] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:31:49] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:31:49] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:32:07] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:07] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:07] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:07] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:07] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:07] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:07] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:07] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:08] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:32:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:32:33] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:34] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:34] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:34] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:34] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:34] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:34] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:34] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:32:34] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:32:34] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:34:11] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:11] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:11] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:11] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:12] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:12] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:12] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:12] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:12] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:34:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:34:16] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:16] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:16] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:16] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:16] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:16] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:16] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:16] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:16] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:34:16] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:34:54] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:54] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:54] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:54] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:54] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:54] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:54] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:54] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:34:54] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:34:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:36:03] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:03] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:03] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:03] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:03] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:03] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:04] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:04] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:04] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:36:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:36:12] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:12] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:12] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:12] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:12] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:12] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:12] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:12] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:13] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:36:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:36:19] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:19] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:19] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:19] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:19] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:19] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:19] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:19] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:19] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:36:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:36:24] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:24] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:24] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:24] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:24] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:24] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:24] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:24] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:36:25] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:36:25] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:37:29] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:37:29] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:37:29] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:37:29] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:37:29] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:37:29] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:37:29] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:37:29] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:37:29] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:37:29] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:38:38] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:38:38] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:38:38] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:38:38] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:38:38] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:38:38] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:38:38] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:38:38] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:38:39] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:38:39] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:40:31] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:40:31] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:40:31] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:40:31] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:40:31] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:40:31] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:40:31] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:40:31] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:40:32] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:40:32] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:41:13] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:13] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:13] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:13] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:13] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:13] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:14] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:14] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:14] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:41:14] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:41:22] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:22] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:22] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:22] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:22] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:22] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:22] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:22] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:22] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:41:22] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Jul/2025 23:41:32] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:32] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:32] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:32] "GET /assets/scripts/global.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:32] "GET /assets/css/global.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:32] "GET /assets/css/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:32] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:32] "GET /assets/html/navbar.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Jul/2025 23:41:32] code 404, message File not found
+127.0.0.1 - - [14/Jul/2025 23:41:32] "GET /favicon.ico HTTP/1.1" 404 -

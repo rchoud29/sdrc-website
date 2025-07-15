@@ -50,8 +50,6 @@
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    padding-left: 3rem;
-    gap: 2rem;
 }
 .about-left {
     flex: 1 1 0;
@@ -59,11 +57,11 @@
     text-align: justify;
 }
 .about-left hr {
-    margin: 0;
+    margin: .5rem 0;
 }
 .about-left-header {
     font-weight: bold;
-    font-size: .75rem;
+    font-size: .9rem;
 }
 .about-left-header hr {
     margin-left: -.1rem;
@@ -71,14 +69,13 @@
     width: 4.2rem;
 }
 .about-left-mission {
-    font-size: .8rem;
+    font-size: .95rem;
 }
 .about-right {
     flex: 1 1 0;
     display: flex;
     justify-content: center;
     align-items: stretch;
-    margin-right: 3rem;
     max-width: 40%;
 }
 .about-right img {
@@ -95,7 +92,6 @@
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    padding-left: 3rem;
     gap: 2rem
 }
 .urc-left {
@@ -104,33 +100,32 @@
     text-align: justify;
 }
 .urc-left {
-    font-size: 1.1rem;
+    font-size: .95rem;
 }
 .urc-left-stage-title {
     font-size: 1.2rem;
 }
 .urc-left-stage-title-title {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: .9rem;
 }
 .urc-left-count-title {
     text-align: center;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: .9rem;
 }
 .urc-left-count-count {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .urc-left-count-count-unit {
-    font-size: .7rem;
+    font-size: .6rem;
 }
 .urc-right {
     flex: 1 1 0;
     display: flex;
     justify-content: center;
     align-items: stretch;
-    margin-right: 3rem;
     width: 60%;
 }
 .urc-right img {
@@ -140,5 +135,35 @@
     object-fit: stretch;
     display: block;
     max-width: 100%;
-    min-width: 80%;
+    min-width: 100%;
+}
+
+.support-desc {
+    font-size: .95rem;
+}
+.support-desc-title {
+    text-align: center;
+    font-weight: bold;
+}
+.support-flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.support-flex-left {
+    flex: 1 1 0;
+    margin: 0 2rem;
+}
+.support-flex-left-title {
+    text-align: center;
+}
+.support-flex-button {
+    text-align: center;
+}
+.support-flex-right {
+    flex: 1 1 0;
+    margin: 0 2rem;
+}
+.support-flex-right-title {
+    text-align: center;
 }
