@@ -23,7 +23,7 @@ function loadNavbar() {
 }
 function nav(addr) {
     let newAddr = window.location.origin;
-    if (newAddr.includes("sdrc-website")) newAddr += "/sdrc-website";
+    if (newAddr.includes("github.io")) newAddr += "/sdrc-website";
     if (addr == "index") {
         newAddr += "/index.html";
     } else {
