@@ -11,13 +11,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0rem 5rem;
 }
 .flex-section {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 1rem 0rem;
+    max-width: 100%;
+    padding: 1rem 5rem;
+}
+.flex-section:nth-child(2n) {
+    background: #593717;
 }
 
 h1 {
