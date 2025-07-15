@@ -1,7 +1,9 @@
 function loadNavbar() {
+    let origin = window.location.origin;
+    if (origin.includes("github.io")) origin += "/sdrc-website";
     let link = document.createElement("link")
     link.rel = "stylesheet";
-    link.href = window.location.origin + "/assets/css/navbar.css";
+    link.href = origin + "/assets/css/navbar.css";
     document.head.appendChild(link);
 
     let navbar = document.createElement("div");
@@ -13,7 +15,7 @@ function loadNavbar() {
         document.getElementById("main-flex").style.marginTop = height + "px";
 
     }
-    fetch(window.location.origin + "/assets/html/navbar.html")
+    fetch(origin + "/assets/html/navbar.html")
         .then(response => response.text())
         .then(data => {
             let e = document.getElementById("nav-placeholder");
